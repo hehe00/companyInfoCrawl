@@ -37,6 +37,15 @@ companyInformation = {
     #31 owingTaxesNotice            欠税公告 
     #32 chattelMortgage             动产抵押
     #33 employments                 招聘信息
+    
+    #34 equityRatio              股权结构图
+    #35 investtree               投资族谱
+    #36 roles                    人所有角色
+    #37 findHistoryRongzi        融资历史
+    #38 findTzanli               投资事件
+    #39 annualreport             年报
+    #40 yuqing                   舆情
+    #41 companyTag               企业标签（高新）
 
 
     LEGINFO                 ={"operation":"replace", "data_type":"gs_V1", "data": []}
@@ -75,6 +84,16 @@ companyInformation = {
     dishonestyNotice        ={"operation":"append",  "data_type":"sf",    "data": []}
     chattelMortgage         ={"operation":"append",  "data_type":"gs",    "data": []}
     employments             ={"operation":"append",  "data_type":"rs",    "data": []}  #rs 人事
+    
+    yuqing                  ={"operation":"append", "data_type":"gs", "data": []}   #舆情
+    annualreport            ={"operation":"append", "data_type":"gs", "data": []}  #年报
+    findTzanli              ={"operation":"append", "data_type":"gs", "data": []}  #投资事件
+    findHistoryRongzi       ={"operation":"append", "data_type":"gs", "data": []}  #融资历史
+    roles                   ={"operation":"replace", "data_type":"gs", "data": []}  #人所有角色
+    investtree              ={"operation":"append", "data_type":"gs", "data": []}  #投资族谱
+    equityRatio             ={"operation":"replace", "data_type":"gs", "data": []}  #股权结构图
+    companyTag              ={"operation":"replace", "data_type":"gs", "data": []}  #企业标签（高新）
+    
 
     #调整部分如下：
     '''
