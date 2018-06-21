@@ -611,3 +611,209 @@ employments = {
     "id":""                 #对应表id
 }
 
+#34 股权结构图：
+equityRatio = {
+    "rowkeySource": "",       #rowkey来源
+    "rowkey": "",             #md5
+    "result":''               #json串
+}
+
+#35 投资族谱
+investtree = {
+    "rowkeySource": "",       #rowkey来源
+    "rowkey": "",             #md5
+    "result":''               #json串
+}
+
+#36 人所有角色接口
+roles = {
+    "rowkeySource": "",        #rowkey来源
+    "rowkey": "",              #md5
+    "legalList":     #法人
+    [{
+        "logo":"",                #logo
+        "hid":'',                 #人id
+        "regCapital":"",          #注册资本
+        "name":"",                #公司名
+        "base":"",                #省份简称
+        "estiblishTime":'',       #开业时间
+        "regStatus":"",           #经营状态
+        "type":"",                #类型
+        "legalPersonName":"",     #法人
+        "cid":''                  #公司id
+    }],
+    "officeList":     #高管列表
+    [{
+        "base":"",              #省份简称
+        "logo":"",              #logo
+        "estiblishTime":"",     #成立日期（毫秒）
+        "regStatus":"",         #经营状态
+        "type":"",              #职位
+        "cid":,                 #公司id
+        "regCapital":"",        #注册资本
+        "name":""               #公司名
+    }],
+    "holderList":     #股东列表
+    [{
+        "logo":"",              #logo
+        "percent":"",           #出资比例
+        "regCapital":"",        #注册资本
+        "name":"",              #公司名
+        "base":"",              #省份简称
+        "estiblishTime":"",     #成立时间
+        "regStatus":"",         #经营状态
+        "type":"",              #类型
+        "subscribed":"",        #投资金额
+        "cid":""                #公司id
+    }]
+}
+
+#37 融资历史
+findHistoryRongzi = {
+    "rowkeySource": "",      #rowkey来源
+    "rowkey": "",            #md5
+    "companyId":"",          #对应表id
+    "companyName":"",        #公司名
+    "date":"",               #融资时间
+    "investorName":"",       #投资企业
+    "isDeleted":"",          #0未删除 1 删除
+    "money":"",              #金额
+    "newsTitle":"",          #新闻标题
+    "newsUrl":"",            #新闻url
+    "organizationName":"",   #投资公司
+    "rongziMap":"",          #弃用 {KPCB凯鹏华盈中国:,高瓴资本:7870866}
+    "round":"",              #轮次
+    "share":"",              #投资比例
+    "sourceWeb":1,           #无用
+    "tzrIds":"",             #投资公司 格式 {"KPCB凯鹏华盈中国":"3028"}
+    "value":""               #估值
+}
+
+#38 投资事件
+findTzanli = {
+    "rowkeySource": "",          #rowkey来源
+    "rowkey": "",                #md5
+    "company_id":"",             #对应表id
+    "icon":"",                   #logo
+    "location":"",               #地区
+    "yewu":"",                   #业务范围
+    "hangye1":"",                #行业
+    "iconOssPath":"",            #logo存放位置
+    "tzdate":"",                 #投资时间
+    "product":"",                #产品名
+    "id":"",                     #产品id
+    "graph_id":"",               #公司id
+    "company":"",                #公司名
+    "money":"",                  #金额
+    "lunci":"",                  #轮次
+    "rongzi_map":"",             #投资公司   #格式 {百度投资部:22822}
+    "organization_name":""       #投资公司
+}
+
+#39 年报
+annualreport = {
+    "rowkeySource": "",                                        #rowkey来源
+    "rowkey": "",                                              #md5
+    "baseInfo":                     #基本信息
+      {
+        "reportYear":"",                                       #年份
+        "companyName":"",                                      #公司名
+        "creditCode":"",                                       #统一社会信用代码
+        "regNumber":"",                                        #注册码
+        "phoneNumber":"",                                      #联系方式
+        "postcode":"",                                         #邮编
+        "postalAddress":"",                                    #邮编地址
+        "email":"",                                            #邮箱
+        "manageState":"",                                      #经营状态
+        "employeeNum":"",                                      #从业人数
+        "operatorName":"",                                     #经营者名称
+        "totalAssets":"",                                      #资产总额
+        "totalEquity":"",                                      #所有者权益合计
+        "totalSales":"",                                       #销售总额(营业总收入)
+        "totalProfit":"",                                      #利润总额
+        "primeBusProfit":"",                                   #主营业务收入
+        "retainedProfit":"",                                   #净利润
+        "totalTax":"",                                         #纳税总额
+        "totalLiability":""                                    #负债总额
+    },
+    "companyId":"",                                            #公司id
+    "changeRecordList":             #年报变更
+    [{
+        "reportYear":"",                                   #年份
+        "changeItem":"",                                   #变更事项
+        "contentBefore":"",                                #变更前
+        "contentAfter":"",                                 #变更后
+        "changeTime":""                                    #变更时间
+    }],  
+    "equityChangeInfoList":         #股东股权变更信息
+    [{                                                          
+            "reportYear":"",                                   #年份
+            "investorName":"",                                 #股东（发起人）
+            "ratioBefore":"",                                  #变更前股权比例
+            "ratioAfter":"",                                   #变更后股权比例
+            "changeTime":""                                    #股权变更日期
+    }],                                                             
+    "outGuaranteeInfoList":                                    #对外提供保证担保信息
+    [{                                                              
+            "reportYear":"",                                   #年份
+            "creditor":"",                                     #债权人
+            "obligor":"",                                      #债务人
+            "creditoType":"",                                  #主债权种类
+            "creditoAmount":"",                                #主债权数额
+            "creditoTerm":"",                                  #履行债务的期限
+            "guaranteeTerm":"",                                #保证的期间
+            "guaranteeWay":"",                                 #保证的方式
+            "guaranteeScope":""                                #保证担保的范围
+    }],
+    "outboundInvestmentList":       #对外投资信息
+    [{
+            "reportYear":"",                                   #年份
+            "outcompanyName":"",    #被投资公司
+            "regNum":"",                                       #注册码
+            "creditCode":"",                                   #社会统一信用代码
+            "type":"",                                         #1-人 2-公司
+            "clickId":""                                       #被投资公司id
+    }],
+    "shareholderList":              #股东
+    [{
+            "investorName":"",                                 #股东名称
+            "subscribeAmount":"",                              #认缴出资额
+            "subscribeTime":"",                                #认缴出资时间
+            "subscribeType":"",                                #认缴出资方式
+            "paidAmount":"",                                   #实缴出资额
+            "paidTime":"",                                     #实缴出资时间
+            "paidType":"",                                     #实缴出资方式
+            "type":"",                                         #1-人 2-公司
+            "clickId":"",                                      #股东id
+            "reportYear":""                                    #年份
+    }],
+    "webInfoList":                  #网站
+    [{
+            "reportYear":"":,                                     #年份
+            "webType":"",                                      #网站类型
+            "name":"",                                         #名称
+            "website":""                                       #网址
+    }],
+}
+
+#40 舆情
+yuqing = {
+    "rowkeySource": "", #rowkey来源
+    "rowkey": "",       #md5
+    'title':'',         #标题
+    'source':'',        #来源
+    'pub_date':'',      #发布时间
+    'link':'',          #链接
+}
+
+#41 企业标签（高新）
+companyTag = {
+    "rowkeySource": "",    #rowkey来源
+    "rowkey": "",          #md5
+    "isHighTech":"",       #高新企业标识  0 不是，1是
+    "stockInfo":"",        #股票信息,     String  
+    "isListed":"",         #上市公司标识  0 不是，1是
+}
+
+
+
