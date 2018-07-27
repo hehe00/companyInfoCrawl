@@ -813,6 +813,9 @@ companyTag = {
     "isHighTech":"",       #高新企业标识  0 不是，1是
     "stockInfo":"",        #股票信息,     String  
     "isListed":"",         #上市公司标识  0 不是，1是
+    "bondName" : "",       #股票名
+    "bondNum" : "",        #股票号
+    "bondType" : ""        #股票类型 
 }
 
 
