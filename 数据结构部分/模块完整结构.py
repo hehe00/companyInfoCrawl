@@ -1,6 +1,38 @@
 #coding=utf-8
-#1股东信息
+#基本信息
+basic_info = {
+    "TEL": "",  # (01)电话
+    "EMAIL": "",  # (02)邮箱
+    "SITE": "",  # (03)网址
+    "ENTNAME": "",  # (04)企业名称
+    "REGNO": "",  # (05)工商注册号
+    "ORGAN_CODE": "",  # (06)组织机构代码
+    "NSRSBH": "",  # (07)纳税人识别号
+    "UNISCID": "",  # (08)统一信用代码
+    "LEREP": "",  # (09)法定代表人
+    "ENTTYPE": "",  # (10)类型
+    "TRADE": "",  # (11)行业
+    "REGCAP": "",  # (12)注册资本
+    "ESTDATE": "",  # (13)成立日期
+    "OPFROM": "",  # (14)经营期限自
+    "OPTO": "",  # (15)经营期限至
+    "REGORG": "",  # (16)登记机关
+    "APPRDATE": "",  # (17)核准日期
+    "DOM": "",  # (18)住所
+    "REgs_V1TATE": "",  # (19)登记状态
+    "OPSCOPE": "",  # (20)经营范围
+    "AMBO": "",  # (21)股票代码
+    "LOGO": "",  # (22)logo图片
+    "SHARESTYPE": "",  # (23)股票种类
+    "SHORTNAME": "",  # (24)公司简称
+    "PROVINCE": "",  # (25)所在省份
+    "CITY": "",  # (26)所在城市
+    "EXT": {}, # (27) 新增模块、历史模块改动
+    "SOCIALSTAFFNUM",         #参保人数
+    "STAFFNUMRANGE",          #人员规模
+}
 
+#1股东信息
 LEGINFO =  {
     "ID": "",        #唯一标示
     "BLICNO": "",    #证照编号
@@ -31,6 +63,7 @@ PERINFO = {
     "NAME": "",       #姓名
     "POSITION": ""    #职位
 }
+
 
 #3分支机构_
 BRANINFO =  {
