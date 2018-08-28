@@ -1,0 +1,130 @@
+crm ={"operation":"replace", "data_type":"crm", "data": []}
+
+#crm 数据格式
+crm = {
+    "customer": {
+        "business_scope": "",               #经营范围
+        "enterprise_scale": "",             #企业规模（人数）  
+        "creater_id": "",                   #创建人
+        "transminssiontime": "",            #传输时间
+        "bed_count": "",                    #床位数
+        "police_station": "",               #所属派出所 
+        "tel": "",                          #电话 
+        "region_id": "",                    #地区
+        "addr": "",                         #默认地址 
+        "room_count": "",                   #房间数
+        "is_bank_collection": "",           #是否托收户
+        "is_with_branches": "",             #有无分支机构  
+        "enterprise_type_id": "",           #企业类型
+        "tel1": "",                         #电话1
+        "tel2": "",                         #电话2
+        "cust_name": "",                    #企业名称
+        "tax_bureau_id": "",                #税局
+        "is_missing": "",                   #失踪标志
+        "credit_limit": "",                 #信用额度
+        "create_date": "",                  #创建时间
+        "register_date": "",                #登记日期    
+        "cust_class_id": "",                #客户类型   
+        "sub_security_bureau_id": "",       #公安分局
+        "accountant_count": "",             #会计人数
+        "computer_count": "",               #电脑数
+        "police_id": "",                    #所属分县局ID（公安机关ID）
+        "service_department_id": "",        #管辖部门ID
+        "tel3": "",                         #电话3
+        "bank_collection_agreement_id": "",    #托收协议号
+        "star_level_id": "",                   #星级
+        "fax": "",                             #传真 
+        "account_bank": "",                    #开户银行
+        "bank_code": "",                       #银行行号
+        "credit_level_id": "",                 #资信等级
+        "url": "",                             #网站地址
+        "security_person": "",                 #治安责任人
+        "cust_name_pinyin": "",                #客户名称拼音
+        "cust_tax_code": "",                   #税号
+        "email": "",                           #邮件地址
+        "fwsk_create_date": "",                #防伪税控产品创建日期
+        "collection_account": "",              #托收账号
+        "mobile": "",                          #移动电话
+        "vocation_force_id": "",               #行业影响度
+        "remark_info": "",                     #提醒信息
+        "own_customer_id": "",                 #自有系统客户ID 
+        "cust_code": "",                       #客户编码（娱乐场所编号、旅馆编码）
+        "cust_level": "",                      #客户等级ID  
+        "contact": "",                         #联系人
+        "manager_org": "",                     #所属管辖单位 
+        "cust_level_id": "",                   #等级
+        "shortcut": "",                        #快捷码
+        "is_valid": "1",                       #数据状态 
+        "registered_fund": "",                 #注册资金    
+        "legal_person": "",                    #法人代表
+        "collection_bank": "",                 #托收银行
+        "register_person": "",                 #登记人
+        "is_fwsk_cust": "1",                   #是否税控客户
+        "cust_scale_id": "0",                  #规模
+        "operatingstate": "2",                 #数据状态1新增2修改3删除
+        "bank_account": "",                    #银行账号 
+        "network_type_id": "",                 #网络形式
+        "security_tel": "",                    #保安部电话   
+        "bank_collection_agreement_date": "",  #托收协议签订日期  
+        "sub_security_bureau": "",             #公安分局
+        "vocation_id": "",                     #行业
+        "general_manager": "",                 #总经理
+        "org_customer_id": "",                 #客户ID
+        "org_id": "",                          #所属服务单位
+        "substation_id": "",                   #分局ID
+        "sub_county_code": "",                 #分县局代码
+        "local_tax_authority_id": "",          #地税局ID 
+        "parent_org_customer_id": "",          #上级单位
+        "update_operator_id": "",              #修改人
+        "security_person_count": "",           #治保人员数
+        "securityclassification": "",          #信息涉密等级
+        "training_count": "",                  #经培训人数 
+        "source_business_type_id": "",         #客户来源业务类型ID  
+        "person_count": "",                    #从业人数 
+        "service_personal_id": "",             #服务人员ID  
+        "update_date": "",                     #修改日期  
+        "notes": "",                           #说明
+        "location_type_id": "",                #场所分类
+        "customer_id": "",    
+        "tax_rate": ""                         #税率
+    },
+    "service_product": [{
+        "product_id": "729",
+        "transminssiontime": "      ",         #传输时间
+        "creater_id": "",                      #创建人
+        "is_refuse_to_pay": "",
+        "org_customer_id": "",                 #客户ID
+        "office_customer_id": "",
+        "is_valid": "",                        #是否有效
+        "securityclassification": "",          #信息涉密等级
+        "create_date": "",                     #创建时间
+        "register_date": "",                   #登记日期    
+        "software_version": "",
+        "service_personal_id": "",             #服务人员ID  
+        "is_shared_user": "",
+        "operatingstate": "",                  #数据状态1新增2修改3删除    
+        "notes": "",                           #说明
+        "invalid_date": ""
+    }],
+    "addr": [
+        {
+        "fax" : "",                            #传真
+        "retion_id" : "",                      #行政区划
+        "invoice_name" : "",                   #开票名称
+        "no" : "",                             #序号
+        "own_customer_id" : "",                #自有系统客户ID
+        "tel" : "",                            #电话
+        "is_default" : "",                     #是否为默认地址：1是，0不是(新添
+        "addr" : "",                           #地址
+        "addr_id" : "",                        #地址ID
+        "postcode" : "",                       #邮编
+        "org_customer_id" : "",                #客户
+        "contact" : "",                        #联系人
+        "syn_data_mark" : "",                  #数据同步标志
+        "addr_name" : "",                      #地址名称
+        "mobile" : ""                          #移动电话
+    }
+    ],
+    "customer_contact": [],
+    "contact": []
+}
