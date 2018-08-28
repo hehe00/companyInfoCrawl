@@ -1,3 +1,5 @@
+crm ={"operation":"replace", "data_type":"crm", "data": []}
+
 #crm 数据格式
 crm = {
     "customer": {
