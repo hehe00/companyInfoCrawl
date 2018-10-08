@@ -851,5 +851,19 @@ companyTag = {
     "bondType" : ""        #股票类型 
 }
 
+#42 百度相关条数
+baiduIdx = {
+    "rowkey": "",           #md5
+	"rowkeySource": "all",  #rowkey来源
+	"pagecnt": ""           #百度相关条数
+}
 
+#43 年报更新时间
+rptPubDate = {
+    "rowkey": "",           #md5
+	"rowkeySource": "ALL",  #rowkey来源
+	"2017": "",             #2017年年报更新时间
+	"2016": "",             #2016年年报更新时间
+	"2015": ""              #2015年年报更新时间
+}
 
