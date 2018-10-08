@@ -46,6 +46,8 @@ companyInformation = {
     #39 annualreport             年报
     #40 yuqing                   舆情
     #41 companyTag               企业标签（高新）
+    #42 baiduIdx                 百度相关条数
+    #43 rptPubDate               年报更新时间
 
 
     LEGINFO                 ={"operation":"replace", "data_type":"gs_V1", "data": []}
