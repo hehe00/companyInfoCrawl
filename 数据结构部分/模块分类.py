@@ -95,6 +95,8 @@ companyInformation = {
     investtree              ={"operation":"append", "data_type":"gs", "data": []}  #投资族谱
     equityRatio             ={"operation":"replace", "data_type":"gs", "data": []}  #股权结构图
     companyTag              ={"operation":"replace", "data_type":"gs", "data": []}  #企业标签（高新）
+    baiduIdx                ={"operation":"append", "data_type":"gs", "data": []}   #百度相关条数
+    rptPubDate              ={"operation":"append", "data_type":"gs", "data": []}   #年报更新时间
     
 
     #调整部分如下：
