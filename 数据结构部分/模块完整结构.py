@@ -866,4 +866,74 @@ rptPubDate = {
 	"2016": "",             #2016年年报更新时间
 	"2015": ""              #2015年年报更新时间
 }
+#44 被投资事件
+beInvested = {
+    "pubDate":"",                    #披露日期 
+    "product":"",                    #产品名称  
+    "hangye":"",                     #行业   
+    "organization_name":"",          #PE/VC投资机构
+    "money":"",                      #投资金额(万) 
+    "currency":"",                   #币种 
+    "Financing":"",                  #融资方式
+    "lunci":"",                      #融资轮次
+    "location":"",                   #地域 
+}
+
+#45 法律诉讼_天眼查
+lawSuit_tyc={
+    "rowkey":"",
+    "rowkeySource":"",
+    "SplitGids":"",                    #相关公司id
+    "plaintiffs":"",                    #原告
+    "plaintiffId":"",                   #原告id
+    "court":"",                         #法院
+    "searchType":"",                    #无用
+    "casereason":"",                    #案由
+    "uni":"",                           #无用
+    "url":"",                           #原文链接地址
+    "caseno":"",                        #案号
+    "id":"",                            #对应表id
+    "_type":"",                         #无用
+    "docid":"",                         #无用
+    "title":"",                         #标题
+    "appelleeId":"",                    #无用
+    "abstracts":"",                     #摘要
+    "connList":[],                      #公司列表"
+    "submittime":"",                    #发布时间
+    "defendantId":"",                   #被告id
+    "lawsuitUrl":"",                    #天眼查显示url
+    "casetype":"",                      #案件类型
+    "appellantId":"",                   #无用
+    "uuid":"",                          #uuid
+    "eventTime":"",                     #无用
+    "doctype":"",                       #文书类型
+    "defendants":""                     #被告
+},
+#46 司法拍卖_天眼查
+judicialSale_tyc = {
+    "rowkey":"",
+    "rowkeySource":"",
+    "pubTime":"",                       #公告日期
+    "detail":[                          #详细信息
+        {
+            "consult_price":"",         #评估价格
+            "initial_price":"",         #起拍价格
+            "title":"",                 #标题
+            "jid":""                    #对应表id
+        }
+    ],
+    "court":"",                         #执行法院
+    "searchType":"",                    #无用
+    "uni":"",                           #无用
+    "scopeDate":"",                     #拍卖起止时间
+    "url":"",                           #公告url
+    "sourceId":"",                      #无用
+    "uniqueHash":"",                    #无用
+    "_type":"",                         #无用
+    "title":"",                         #标题
+    "recordHash":"",                    #无用
+    "connList":[],                      #相关公司列表
+    "eventTime":"",                     #无用
+    "introduction":""                   #描述
+}
 
