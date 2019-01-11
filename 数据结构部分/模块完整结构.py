@@ -936,4 +936,24 @@ judicialSale_tyc = {
     "eventTime":"",                     #无用
     "introduction":""                   #描述
 }
+#47 公司地址坐标
+location = {
+    "lat":"",	                    #经度
+    "lng":""                        #纬度
+}
+#48 融资项目
+finance_project = {
+    "plrq":"",  #披露日期
+    "rzqy":"",  #融资企业/项目名称
+    "hy":"",    #行业
+    "tzjg":"",  #PE/VC投资机构
+    "tzje":"",  #投资金额(万)
+    "bz":"",    #币种
+    "rzfs":"",  #融资方式    
+    "rzlc":"",  #融资轮次   
+    "dy":"",    #地域
+    "gswz":"",  #公司网址
+    "company":""  #公司名称
+}
+
 
