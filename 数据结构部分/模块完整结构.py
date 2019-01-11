@@ -955,5 +955,95 @@ finance_project = {
     "gswz":"",  #公司网址
     "company":""  #公司名称
 }
+#49 股权冻结 （new）
+judicial_freezes = {
+    'amount':'',        #股权数额
+    'court':'',         #执行法院
+    'number':'',        #协助公示通知书文号
+    'type':'',          #类型
+    'status':'',        #状态
+    'detail':{          #详细信息
+        'court':'',             #执行法院
+        'item':'',              #执行事项
+        'doc_no':'',            #执行裁定书文号
+        'notice_no':'',         #执行通知书文号
+        'exec_person':'',       #被执行人
+        'eid':'',               #被执行人id
+        'exec_cnt':'',          #被执行人持有股权、其它投资权益的数额
+        'exec_id_type':'',      #被执行人证件种类
+        'exec_id_no':'',        #被执行人证件号码
+        'from_date':'',         #冻结期限自
+        'to_date':'',           #冻结期限至
+        'period':'',            #冻结期限
+        'pub_date':'',          #公示日期
+        'name':'',              #公司名称 (eid,name,type)
+    },       
+    'un_freeze_dtl':{   #un_freeze_详细信息
+        'court':'',             #执行法院
+        'item':'',              #执行事项
+        'doc_no':'',            #执行裁定书文号
+        'notice_no':'',         #执行通知书文号
+        'exec_person':'',       #被执行人
+        'exec_cnt':'',          #被执行人持有股权、其它投资权益的数额
+        'exec_id_type':'',      #被执行人证件种类
+        'exec_id_no':'',        #被执行人证件号码
+        'unfreeze_date':'',     #解冻日期
+        'eid':'',               #企业id
+        'pub_date':'',          #公示日期
+        'name':'',              #公司名称(eid,name,type)
+    }, 
+    'partner_alt_del':{     #股东变更登记情况
+        'court':'',                  #执行法院
+        'item':'',                   #执行事项
+        'doc_no':'',                 #执行裁定书文号
+        'notice_no':'',              #执行通知书文号
+        'eid':'',                    #被执行人id
+        'exec_person':'',            #被执行人
+        'exec_cnt':'',               #被执行人持有股权、其它投资权益的数额
+        'exec_id_type':'',           #被执行人证件种类
+        'exec_id_no':'',             #被执行人证件号码
+        'assignee':'',               #受让人(type, eid, name)
+        'date':'',                   #协助执行日期
+        'assignee_type':'',          #受让人证件种类
+        'assignee_id_no':'',         #受让人证件号码
+    },   
+    'unfreeze_dtls':[       #解冻详情
+        {
+            'court':'',             #执行法院
+            'item':'',              #执行事项
+            'doc_no':'',            #执行裁定书文号
+            'notice_no':'',         #执行通知书文号
+            'exec_person':'',       #被执行人
+            'exec_cnt':'',          #被执行人持有股权、其它投资权益的数额
+            'exec_id_type':'',      #被执行人证件种类
+            'exec_id_no':'',        #被执行人证件号码
+            'unfreeze_date':'',     #解冻日期
+            'eid':'',               #企业id
+            'pub_date':'',          #公示日期
+            'name':'',              #公司名称(eid,name,type)
+        },
+    ],   
+    'continue_dtls':[             #续行冻结情况
+        {
+            'court':'',                 #执行法院
+            'item':'',                  #执行事项
+            'doc_no':'',                #执行裁定书文号
+            'notice_no':'',             #执行通知书文号
+            'eid':'',                   #被执行人eid
+            'exec_person':'',           #被执行人
+            'exec_cnt':'',              #被执行人持有股权、其它投资权益的数额
+            'exec_id_type':'',          #被执行人证件种类
+            'exec_id_no':'',            #被执行人证件号码
+            'from_date':'',             #续行冻结期限自
+            'to_date':'',               #续行冻结期限至
+            'period':'',                #续行冻结期限
+            'pub_date':'',              #公示日期
+        },
+    ],  
+    'lose_efficacy':{           #失效情况
+        'reason':'',                #失效原因
+        'date':'',                  #失效日期
+    }, 
+}
 
 
