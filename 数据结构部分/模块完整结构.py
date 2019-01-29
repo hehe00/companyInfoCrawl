@@ -942,7 +942,7 @@ location = {
     "lng":""                        #纬度
 }
 #48 融资项目
-finance_project = {
+financeProject = {
     "plrq":"",  #披露日期
     "rzqy":"",  #融资企业/项目名称
     "hy":"",    #行业
