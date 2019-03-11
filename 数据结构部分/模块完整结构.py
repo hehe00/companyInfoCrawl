@@ -539,7 +539,7 @@ administrativePenalty = {
     "rowkey": "", #md5
     "jdwsh" : "", #行政处罚决定文书号
     "wfxwlx": "", #违法行为类型
-    "cfz;": "", #处罚种类
+    "cfzl": "", #处罚种类
     "fkje": "", #罚款金额
     "msje": "", #没收金额
     "jddwmc" : "", #作出行政处罚决定单位名称|作出处罚决定的机关名称|督办单位
