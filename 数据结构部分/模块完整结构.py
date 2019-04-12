@@ -701,7 +701,7 @@ roles = {
     }]
 }
 
-#37 融资历史
+#37 融资历史  （天严查接口）
 findHistoryRongzi = {
     "rowkeySource": "",      #rowkey来源
     "rowkey": "",            #md5
@@ -722,7 +722,7 @@ findHistoryRongzi = {
     "value":""               #估值
 }
 
-#38 投资事件
+#38 投资事件  （天严查接口）
 findTzanli = {
     "rowkeySource": "",          #rowkey来源
     "rowkey": "",                #md5
@@ -941,7 +941,7 @@ location = {
     "lat":"",	                    #经度
     "lng":""                        #纬度
 }
-#48 融资项目
+#48 融资项目 （自己的模块，根据表格项目）
 financeProject = {
     "plrq":"",  #披露日期
     "rzqy":"",  #融资企业/项目名称
