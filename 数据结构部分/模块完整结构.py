@@ -943,18 +943,21 @@ location = {
 }
 #48 融资项目 （自己的模块，根据表格项目）
 financeProject = {
-    "plrq":"",  #披露日期
-    "rzqy":"",  #融资企业/项目名称
-    "hy":"",    #行业
-    "tzjg":"",  #PE/VC投资机构
-    "tzje":"",  #投资金额(万)
-    "bz":"",    #币种
-    "rzfs":"",  #融资方式    
-    "rzlc":"",  #融资轮次   
-    "dy":"",    #地域
-    "gswz":"",  #公司网址
-    "company":""  #公司名称
+    "plrq" : "",      #披露日期
+    "rzqy" : "",      #融资企业
+    "hy" : "",        #行业
+    "dy" : "",        #地域
+    "tzf" : "",       #投资方
+    "rzfs" : "",      #融资方式
+    "rzlc" : "",      #融资伦次
+    "rzje" : "",      #融资金额
+    "rzbz" : ""       #融资币种
+    "gswz" : "",      #公司网址
+    "company" : "",   #公司名称
+    "rowkeySource" : "",
+    "rowkey" : ""
 }
+
 #49 股权冻结 （new）
 judicial_freezes = {
     'amount':'',        #股权数额
