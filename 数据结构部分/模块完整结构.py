@@ -958,7 +958,31 @@ financeProject = {
     "rowkey" : ""
 }
 
-#49 股权冻结 （new）
+#49 退出事件 （自己的模块，根据表格项目）
+exitEvent : {
+    "ssrq":"",               #上市日期
+    "cysc":"",               #持有时长
+    "xmmc":"",               #项目名称
+    "zqdm":"",               #证券代码
+    "jys":"",                #交易所
+    "mjzj":"",               #募集资金（万）
+    "sshy":"",               #所属行业
+    "tzjg":"",               #投资机构
+    "jijin":"",              #基金
+    "ztzje":"",              #总投资金额
+    "bz":"",                 #币种
+    "zmtzhbbs":"",           #账面投资回报倍数
+    "tcsj":"",               #退出时间
+    "tcfs":"",               #退出方式
+    "jyzjz":"",              #交易总价值（万）
+    "type",                  #事件类型(0-直接退出，1-上市退出)
+    "company":"",            #公司名称
+    "tzgs":"",               #投资公司
+    "rowkey":"", 
+    "rowkeySource":"",
+}
+
+#50 股权冻结 （new）
 judicial_freezes = {
     'amount':'',        #股权数额
     'court':'',         #执行法院
