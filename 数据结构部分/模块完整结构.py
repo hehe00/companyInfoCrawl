@@ -181,7 +181,8 @@ LAWINFO = {
     "ABNTIME": "",    #列入日期
     "REMDATE": "",    #移出日期
     "REMEXCPRES": "", #移出严重违法企业名单原因
-    "DECORG": ""     #作出决定机关
+    "DECORG": "",     #决定列入部门(作出决定机关)
+    "removeDepartment":""   #决定移除部门
 }
 
 
