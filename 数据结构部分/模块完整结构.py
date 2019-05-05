@@ -1074,4 +1074,27 @@ judicial_freezes = {
     }, 
 }
 
+#51 购地信息
+purchaseLand = {
+    "adminRegion": "",    #行政区
+    "assignee": "",       #受让人
+    "createTime": "",       #创建时间 （时间戳）
+    "dealPrice": "",        #成交价款（万元）
+    "elecSupervisorNo": "", #电子监管号
+    "endTime": "",            #约定竣工时间（时间戳）
+    "id": "",                 #对应表id (数字)
+    "linkUrl": "",              #链接
+    "location": "",             #宗地位置
+    "maxVolume": "",            #最大容积率
+    "minVolume": "",            #最小容积率
+    "parentCompany": "",        #上级公司
+    "purpose": "",              #土地用途
+    "signedDate": "",           #签订日期（时间戳）
+    "startTime": "",            #约定动工时间
+    "supplyWay": "",            #供应方式
+    "totalArea": "",            #供地总面积(公顷)
+    "updateTime": ""            #更新时间
+}
+
+
 
