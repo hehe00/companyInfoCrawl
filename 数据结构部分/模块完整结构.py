@@ -30,6 +30,7 @@ basic_info = {
     "EXT": {}, # (27) 新增模块、历史模块改动
     "SOCIALSTAFFNUM",         #参保人数
     "STAFFNUMRANGE",          #人员规模
+    "actualCapital": "",      #实缴资本
 }
 
 #1股东信息
