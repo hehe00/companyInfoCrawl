@@ -956,6 +956,7 @@ financeProject = {
     "rzbz" : ""       #融资币种
     "gswz" : "",      #公司网址
     "company" : "",   #公司名称
+    "tzgs": "",       #投资公司
     "rowkeySource" : "",
     "rowkey" : ""
 }
