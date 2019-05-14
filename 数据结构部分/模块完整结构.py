@@ -1098,5 +1098,10 @@ purchaseLand = {
     "updateTime": ""            #更新时间
 }
 
-
+#52 最终受益人
+humanholding = {
+    "rowkeySource": "",       #rowkey来源
+    "rowkey": "",             #md5
+    "result":''               #json串
+}
 
