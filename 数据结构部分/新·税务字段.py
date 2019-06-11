@@ -24,7 +24,7 @@ qsgg:{
     "operation":"append",
     "data_type":"sw",
     "data":[{
-        "rowkeySource":"rowkey来源", #非正常认定日期+纳税人识别号+纳税人名称+欠税币额/期末欠税余额+证件号码+当前新发生的欠税余额"
+        "rowkeySource":"rowkey来源", #非正常认定日期+纳税人识别号+纳税人名称+欠税币额/期末欠税余额+证件号码+当前新发生的欠税余额+欠税税种"
         "rowkey":"md5",
         "nsrmc" : "纳税人名称",
         "nsrlx" : "纳税人类型",    
