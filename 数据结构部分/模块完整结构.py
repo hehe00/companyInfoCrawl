@@ -1105,3 +1105,15 @@ humanholding = {
     "result":''               #json串
 }
 
+#53 作品著作权
+copyRegWorks = {
+    "createTime": 1505774606000,      #创建时间
+    "regtime": "",                    #登记日期
+    "authorNationality": "",          #著作权人姓名/名称
+    "publishtime": "",                #发布日期
+    "regnum": "",                     #登记号
+    "finishTime": "",                 #创作完成日期
+    "type": "",                       #作品类别
+    "fullname": ""                    #作品名称
+}
+
