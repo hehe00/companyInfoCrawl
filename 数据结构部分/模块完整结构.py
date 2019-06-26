@@ -1107,7 +1107,9 @@ humanholding = {
 
 #53 作品著作权
 copyRegWorks = {
-    "createTime": 1505774606000,      #创建时间
+    "rowkeySource": "",               #rowkey来源
+    "rowkey": "",                     #md5
+    "createTime": "",                 #创建时间
     "regtime": "",                    #登记日期
     "authorNationality": "",          #著作权人姓名/名称
     "publishtime": "",                #发布日期
